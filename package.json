@@ -1,0 +1,21 @@
+{
+  "name": "fsdcse25backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prernachauhan001/fsd_backend_code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/prernachauhan001/fsd_backend_code/issues"
+  },
+  "homepage": "https://github.com/prernachauhan001/fsd_backend_code#readme"
+}
