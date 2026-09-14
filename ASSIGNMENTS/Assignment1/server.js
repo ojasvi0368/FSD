@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const FILE = 'students.json';
+const FILE ='students.json';
 if (!fs.existsSync(FILE)) fs.writeFileSync(FILE, '[]');
 
 http.createServer((req, res) => {
