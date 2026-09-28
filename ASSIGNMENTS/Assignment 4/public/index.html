@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Request System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Campus Request System</h1>
+
+    <form id="requestForm">
+
+        <input type="hidden" id="requestId">
+
+        <label>Student Name</label>
+        <input type="text" id="studentName" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Category</label>
+        <select id="category" required>
+            <option value="">Select Category</option>
+            <option value="Academic">Academic</option>
+            <option value="Hostel">Hostel</option>
+            <option value="Transport">Transport</option>
+            <option value="Infrastructure">Infrastructure</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label>Problem Description</label>
+        <textarea id="description" required></textarea>
+
+        <label>Priority</label>
+        <select id="priority" required>
+            <option value="">Select Priority</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+
+        <button type="submit" id="submitBtn">Submit Request</button>
+
+    </form>
+
+    <h2>Submitted Requests</h2>
+
+    <div id="requests"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
